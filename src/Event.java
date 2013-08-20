@@ -62,7 +62,7 @@ public class Event extends JPanel {
 		gbc_lblType.gridy = 2;
 		add(lblType, gbc_lblType);
 		
-		JRadioButton rdbtnAct = new JRadioButton("Act");
+		JRadioButton rdbtnAct = new JRadioButton("Uncontrollable");
 		rdbtnAct.setForeground(Color.WHITE);
 		rdbtnAct.setBackground(Color.GRAY);
 		GridBagConstraints gbc_rdbtnAct = new GridBagConstraints();
@@ -72,7 +72,7 @@ public class Event extends JPanel {
 		gbc_rdbtnAct.gridy = 2;
 		add(rdbtnAct, gbc_rdbtnAct);
 		
-		JRadioButton rdbtnSense = new JRadioButton("Sense");
+		JRadioButton rdbtnSense = new JRadioButton("Controllable");
 		rdbtnSense.setForeground(Color.WHITE);
 		rdbtnSense.setBackground(Color.GRAY);
 		GridBagConstraints gbc_rdbtnSense = new GridBagConstraints();
@@ -81,16 +81,6 @@ public class Event extends JPanel {
 		gbc_rdbtnSense.gridx = 3;
 		gbc_rdbtnSense.gridy = 3;
 		add(rdbtnSense, gbc_rdbtnSense);
-		
-		JRadioButton rdbtnInformation = new JRadioButton("Information");
-		rdbtnInformation.setForeground(Color.WHITE);
-		rdbtnInformation.setBackground(Color.GRAY);
-		GridBagConstraints gbc_rdbtnInformation = new GridBagConstraints();
-		gbc_rdbtnInformation.anchor = GridBagConstraints.WEST;
-		gbc_rdbtnInformation.insets = new Insets(0, 0, 5, 5);
-		gbc_rdbtnInformation.gridx = 3;
-		gbc_rdbtnInformation.gridy = 4;
-		add(rdbtnInformation, gbc_rdbtnInformation);
 		
 		JLabel lblType_1 = new JLabel("Type");
 		lblType_1.setForeground(Color.WHITE);

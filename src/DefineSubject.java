@@ -8,6 +8,7 @@ import javax.swing.JRadioButton;
 import java.awt.Insets;
 import javax.swing.JTextField;
 import java.awt.Color;
+import javax.swing.JButton;
 
 
 public class DefineSubject {
@@ -108,6 +109,13 @@ public class DefineSubject {
 		gbc_rdbtnProp.gridx = 2;
 		gbc_rdbtnProp.gridy = 5;
 		frame.getContentPane().add(rdbtnProp, gbc_rdbtnProp);
+		
+		JButton btnNewButton = new JButton("Save");
+		GridBagConstraints gbc_btnNewButton = new GridBagConstraints();
+		gbc_btnNewButton.insets = new Insets(0, 0, 0, 5);
+		gbc_btnNewButton.gridx = 2;
+		gbc_btnNewButton.gridy = 6;
+		frame.getContentPane().add(btnNewButton, gbc_btnNewButton);
 	}
 
 }
